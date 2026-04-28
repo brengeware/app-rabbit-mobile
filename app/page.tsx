@@ -62,7 +62,6 @@ export default function RabbitMobileAutoHome() {
             whileHover={{ scale: 1.05 }}
             className="flex items-center gap-3 cursor-pointer"
           >
-            import Image from 'next/image';
             <Image
               src="/logo-white.png"
               alt="Rabbit Mobile Auto"
@@ -436,7 +435,6 @@ export default function RabbitMobileAutoHome() {
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-400 py-8 px-6 text-center border-t border-gray-800">
         <div className="bg-gray-900 text-gray-400 py-8 px-6 text-center border-t border-gray-800 flex flex-col items-center gap-4">
-      import Image from 'next/image';
       <Image
               src="/logo-white.png"
               alt="Rabbit Mobile Auto"
