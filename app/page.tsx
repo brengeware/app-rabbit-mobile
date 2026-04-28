@@ -445,7 +445,7 @@ export default function RabbitMobileAutoHome() {
             />
             <p>Support Local</p>
             </div>
-        <p>© 2024 Rabbit Mobile Auto.</p>
+        <p>© 2026 Rabbit Mobile Auto.</p>
         <p className='text-green-400'>v0.0.0 -- PROTOTYPE</p>
       </footer>
     </div>
