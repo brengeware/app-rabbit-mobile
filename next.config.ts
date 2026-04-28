@@ -1,10 +1,11 @@
 import type { NextConfig } from 'next';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
   output: 'export',
-  // if deployed at https://<user>.github.io/app-rabbit-mobile
-  basePath: '/app-rabbit-mobile',
-  assetPrefix: '/app-rabbit-mobile',
+  basePath: isProd ? '/app-rabbit-mobile' : '',
+  assetPrefix: isProd ? '/app-rabbit-mobile' : '',
   images: {
     unoptimized: true,
   }
