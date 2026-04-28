@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   // if deployed at https://<user>.github.io/app-rabbit-mobile
   basePath: '/app-rabbit-mobile',
   assetPrefix: '/app-rabbit-mobile',
+  images: {
+    unoptimized: true,
+  }
 };
 
 export default nextConfig;
