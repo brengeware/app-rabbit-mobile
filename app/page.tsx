@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { color, motion } from 'framer-motion';
 import { Wrench, Zap, MapPin, Phone, CheckCircle2, Clock, ArrowRight, Mail, Globe, Heart } from 'lucide-react';
 import Image from 'next/image';
+import logo from '@/public/logo-white.png';
 
 export default function RabbitMobileAutoHome() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -63,7 +64,7 @@ export default function RabbitMobileAutoHome() {
             className="flex items-center gap-3 cursor-pointer"
           >
             <Image
-              src="/logo-white.png"
+              src={logo}
               alt="Rabbit Mobile Auto"
               width={160}
               height={160}
@@ -436,7 +437,7 @@ export default function RabbitMobileAutoHome() {
       <footer className="bg-gray-900 text-gray-400 py-8 px-6 text-center border-t border-gray-800">
         <div className="bg-gray-900 text-gray-400 py-8 px-6 text-center border-t border-gray-800 flex flex-col items-center gap-4">
       <Image
-              src="/logo-white.png"
+              src={logo}
               alt="Rabbit Mobile Auto"
               width={160}
               height={160}
